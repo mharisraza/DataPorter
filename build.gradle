@@ -29,6 +29,9 @@ dependencies {
 
 	// help convert JSON to Java Object.
 	implementation("com.fasterxml.jackson.core:jackson-databind:2.20.0")
+
+	// excel
+	implementation("com.github.pjfanning:excel-streaming-reader:5.1.0")
 }
 
 tasks.named('test') {
