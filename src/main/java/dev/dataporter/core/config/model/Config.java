@@ -1,4 +1,4 @@
-package dev.dataporter.config.model;
+package dev.dataporter.core.config.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

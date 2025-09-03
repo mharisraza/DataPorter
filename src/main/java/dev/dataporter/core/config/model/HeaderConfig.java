@@ -1,4 +1,4 @@
-package dev.dataporter.config.model;
+package dev.dataporter.core.config.model;
 
 
 import lombok.Getter;
@@ -24,10 +24,10 @@ public class HeaderConfig {
     private String[] whitelist;
     private String[] blacklist;
 
-    private int minLength;
-    private int maxLength;
+    private int minLength = 1;
+    private int maxLength = 32_767; // white space include if allowed;
 
-    private boolean isRequired;
-    private boolean isUnique;
+    private boolean isRequired = false;
+    private boolean isUnique = false;
 
 }

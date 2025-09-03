@@ -1,4 +1,4 @@
-package dev.dataporter.config.policy;
+package dev.dataporter.core.config.policy;
 
 public enum DuplicateRowPolicy {
     ALLOW,
