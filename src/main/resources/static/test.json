@@ -1,0 +1,20 @@
+{
+  "configName": "Test Json",
+  "configGlobalRule": {
+    "minRowsCount": 1,
+    "maxRowsCount": 100,
+    "skipEmptyRows": true,
+    "headerCaseSensitive": true,
+    "multiSheetSupport": false,
+    "normalizeHeaders": true,
+    "duplicateRowPolicy": "ALLOW",
+    "extraColumnPolicy": "IGNORE"
+  },
+  "headerConfigs": [
+    {
+      "name": "Test",
+      "defaultValue": "defaultValue",
+      "isRequired": true
+    }
+  ]
+}
