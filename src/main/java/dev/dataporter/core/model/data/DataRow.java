@@ -12,6 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 public class DataRow {
     private int rowNumber;
+    private boolean isPhysicallyEmpty = false;
     private List<DataColumn> dataColumns = new ArrayList<DataColumn>();
 
     public DataRow(int rowNumber) {
