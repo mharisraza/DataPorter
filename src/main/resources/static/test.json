@@ -2,7 +2,7 @@
   "configName": "Test Json",
   "configGlobalRule": {
     "minRowsCount": 1,
-    "maxRowsCount": 100,
+    "maxRowsCount": 5,
     "skipEmptyRows": true,
     "headerCaseSensitive": true,
     "multiSheetSupport": false,
@@ -12,8 +12,11 @@
   },
   "headerConfigs": [
     {
-      "name": "Test",
-      "defaultValue": "defaultValue",
+      "name": "Name",
+      "isRequired": true
+    },
+    {
+      "name": "Job",
       "isRequired": true
     }
   ]
